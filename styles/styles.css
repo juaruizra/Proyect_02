@@ -1,0 +1,49 @@
+h1{color: rgb(199, 237, 227);
+  font-size: 50px;}
+
+a{color: rgb(43, 120, 163);
+  font-size: 20px;}
+
+.upper {
+  background-color: #032924;
+  width: 80%;
+  margin: auto; //hacer un margen automatico
+  color: rgba(#93a24c, 0.43);
+  text-align: center; //centrar texto
+  padding: 20px;
+}
+
+table, th, td {
+ border: 2px solid rgb(148, 200, 146);
+ padding: 5px;
+}
+
+.div1 {
+    width: auto;
+    padding: 25px;
+    border: 25px solid rgb(148, 200, 146);
+    margin: 25px;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(63, 171, 59);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #0c4c67}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
