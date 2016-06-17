@@ -1,15 +1,18 @@
 <html>
   <head>
     <title style="font-family:courier;">Iniciar Sesión</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-    <link rel="stylesheet" href="../styles/styles.css"></link>
+    <meta name="viewport" content="width=device-width, initial-scale=1, charset=utf-8"/>
+    <meta >
+    <head>
+     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" media="screen"> <!–Llamamos al archivo CSS a través de CDN –>
+     <script type="text/javascript" src="../assets/script.js"></script>
   </head>
 
-  <body >
+  <body style="background-color:#81DAF5;">
     <center>
-      <div class="div1">
+      <div>
         <form>
-          <table>
+          <table border="5">
             <tr>
               <td><label for="user">Name:</label></td>
               <td><input type="text" name="user"></td>
@@ -21,10 +24,12 @@
             </tr>
           </table>
           <br/>
-          <button class="button" type="submit" value="Enviar">Ok</button>
-          <button class="button" type="reset" value="Cancelar">Cancelar</button>
+          <button type="submit" value="Enviar" onclick="mostrar()">Ok</button>
+          <button type="reset" value="Cancelar">Cancelar</button>
         </form>
       </div>
+      <button type="button" class="btn btn-default">Default</button>
+
     </center>
   </body>
 
